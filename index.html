@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Menü</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #90ee90;
+            text-align: center;
+            margin: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 10px;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .button {
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .button:hover {
+            filter: brightness(80%);
+        }
+        section {
+            padding: 20px;
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #90ee90;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">SLENTE</div>
+        <div class="grid">
+            <div class="button" onclick="location.href='#biralar'" style="background-image: url('biralar.png');">Biralar</div>
+            <div class="button" onclick="location.href='#saraplar'" style="background-image: url('saraplar.png');">Şaraplar</div>
+            <div class="button" onclick="location.href='#viskiler'" style="background-image: url('viskiler.png');">Viskiler</div>
+            <div class="button" onclick="location.href='#cinler'" style="background-image: url('cinler.png');">Cinler</div>
+            <div class="button" onclick="location.href='#vodkalar'" style="background-image: url('vodkalar.png');">Vodkalar</div>
+            <div class="button" onclick="location.href='#shotlar'" style="background-image: url('shotlar.png');">Shotlar</div>
+            <div class="button" onclick="location.href='#likorler'" style="background-image: url('likorler.png');">Likörler</div>
+            <div class="button" onclick="location.href='#ramlar'" style="background-image: url('romlar.png');">Rom</div>
+            <div class="button" onclick="location.href='#kokteyller'" style="background-image: url('kokteyler.png');">Kokteyller</div>
+            <div class="button" onclick="location.href='#mesrubat'" style="background-image: url('musrubatlar.png');">Meşrubat</div>
+            <div class="button" onclick="location.href='#cerez'" style="background-image: url('cerezler.png');">Çerezler</div>
+            <div class="button" onclick="location.href='#konyak'" style="background-image: url('konyaklar.png');">Konyak</div>
+        </div>
+    </div>
+
+    <section id="mesrubat">
+        <h2>Meşrubat</h2>
+        <p>COCA COLA - 100TL</p>
+        <p>REDBULL - 150TL</p>
+        <p>SODA - 100TL</p>
+        <p>SU - 50TL</p>
+    </section>
+
+    <section id="likorler">
+        <h2>Likörler</h2>
+        <p>BAILEYS - 200TL</p>
+        <p>BOLS - 200TL</p>
+        <p>APEROL - 200TL</p>
+        <p>CAMPARI - 200TL</p>
+        <p>LUXARDO GRILAMO - 200TL</p>
+        <p>LUXARDO LİMONCELLO - 200TL</p>
+        <p>MARTINI BİANCO - 200TL</p>
+        <p>MARTINI ROSSO - 200TL</p>
+        <p>SAFARİ - 200TL</p>
+        <p>SKİNOS - 200TL</p>
+        <p>ST. GERMAIN - 200TL</p>
+        <p>SHERİDAN'S - 200TL</p>
+        <p>COİNTEAU - 250TL</p>
+        <p>KAHLUA - 200TL</p>
+        <p>JAGGERMAİSTER - 200TL</p>
+        <p>JAGERMAİSTER MANIFEST - 200TL</p>
+        <p>DİSARONNO - 200TL</p>
+    </section>
+    
+
+    <section id="romlar">
+        <h2>Romlar</h2>
+        <p>OLD CAPTAIN CARIBBEAN - 200TL</p>
+        <p>OLD CAPTAIN KARAYIP - 200TL</p>
+        <p>CAPTAIN MORGAN WHITE - 200TL</p>
+        <p>BACARDI SPICED - 200TL</p>
+        <p>BACARDI CARTA BLANCA - 200TL</p>
+    </section>
+
+    <section id="konyak">
+        <h2>Konyak</h2>
+        <p>COIRVOISIER VSOP - 600TL</p>
+    </section>
+
+    <section id="bira">
+        <h2>Biralar</h2>
+        <p>TUBORG 50CL - 200TL</p>
+        <p>TUBORG 33CL - 200TL</p>
+        <p>CARLSBERG 50CL - 200TL</p>
+        <p>CARLSBERG 33CL - 200TL</p>
+        <p>BLANC 50CL - 200TL</p>
+        <p>BLANC 33CL - 200TL</p>
+        <p>WEIHENSTEPHANER 50CL - 200TL</p>
+        <p>WEIHENSTEPHANER 33CL - 200TL</p>
+        <p>GUINESS 50CL - 200TL</p>
+    </section>
+    
+
+    <section id="saraplar">
+        <h2>Şaraplar</h2>
+        <p>SUVLA KİLİTBAHİR KIRMIZI KADEH - 200TL</p>
+        <p>SUVLA KİLİTBAHİR KIRMIZI SİSE - 800TL</p>
+        <p>SUVLA KABATEPE KIRMIZI KADEH - 200TL</p>
+        <p>SUVLA KABATEPE KIRMIZI SİSE - 800TL</p>
+        <p>SUVLA KABATEPE BEYAZ KADEH - 200TL</p>
+        <p>SUVLA KABATEPE BEYAZ SİSE - 800TL</p>
+        <p>SUVLA KABATEPE ROSE KADEH - 200TL</p>
+        <p>SUVLA KABATEPE ROSE SİSE - 800TL</p>
+    </section>
+
+    <section id="cinler">
+        <h2>Cinler</h2>
+        <p>GORDONS TEK - 200TL</p>
+        <p>GORDONS DUBLE - 400TL</p>
+        <p>GORDONS PINK TEK - 200TL</p>
+        <p>GORDONS PINK DUBLE - 400TL</p>
+        <p>BOMBAY TEK - 250TL</p>
+        <p>BOMBAY DUBLE - 500TL</p>
+        <p>HENDRICKS TEK - 300TL</p>
+        <p>HENDRICKS DUBLE - 600TL</p>
+        <p>ROKU TEK - 250TL</p>
+        <p>ROKU DUBLE - 500TL</p>
+        <p>TANGUERAY LONDON DRY 250 - 250TL</p>
+        <p>TANGUERAY LONDON DRY 500 - 500TL</p>
+        <p>MONKEY 47 TEK - 200TL</p>
+        <p>MONKEY 47 DUBLE - 400TL</p>
+    </section>
+    
+
+    <section id="votkalar">
+        <h2>Votkalar</h2>
+        <p>SMİRNOFF TEK - 200TL</p>
+        <p>SMİRNOFF DUBLE - 400TL</p>
+        <p>ABSOULT PEARS TEK - 200TL</p>
+        <p>ABSOULT PEARS DUBLE - 400TL</p>
+        <p>HAKU TEK - 350TL</p>
+        <p>HAKU DUBLE - 700TL</p>
+        <p>SMİRNOFF NORTH TEK - 200TL</p>
+        <p>SMİRNOFF NORTH DUBLE - 400TL</p>
+        <p>SMİRNOFF APPLE TEK - 200TL</p>
+        <p>SMİRNOFF APPLE DUBLE - 400TL</p>
+    </section>
+    
+
+    <section id="viskiler">
+        <h2>Viskiler</h2>
+        <p>CHIVAS REGAL TEK - 200TL</p>
+        <p>CHIVAS REGAL DUBLE - 400TL</p>
+        <p>BLACK LABEL TEK - 200TL</p>
+        <p>BLACK LABEL DUBLE - 400TL</p>
+        <p>DOUBLE BLACK TEK - 250TL</p>
+        <p>DOUBLE BLACK DUBLE - 500TL</p>
+        <p>JACK DANIELS TEK - 200TL</p>
+        <p>JACK DANIELS DUBLE - 400TL</p>
+        <p>SINGLETON12 TEK - 250TL</p>
+        <p>SINGLETON12 DUBLE - 500TL</p>
+        <p>JAMESON TEK - 200TL</p>
+        <p>JAMESON DUBLE - 400TL</p>
+        <p>JAMESON BLACKBARREL TEK - 250TL</p>
+        <p>JAMESON BLACKBARREL DUBLE - 500TL</p>
+        <p>BULLET BOURBON TEK - 300TL</p>
+        <p>BULLET BOURBON DUBLE - 600TL</p>
+        <p>GLENFIDDICH12 TEK - 300TL</p>
+        <p>GLENFIDDICH12 DUBLE - 600TL</p>
+        <p>TALISKER TEK - 350TL</p>
+        <p>TALISKER DUBLE - 700TL</p>
+        <p>MACALLAN12 TEK - 500TL</p>
+        <p>MACALLAN12 DUBLE - 100TL</p>
+        <p>MONKEY SHOULDER TEK - 250TL</p>
+        <p>MONKEY SHOULDER DUBLE - 500TL</p>
+        <p>HIBIKI TEK - 800TL</p>
+        <p>HIBIKI DUBLE - 1600TL</p>
+        <p>AUCHENTOSHAN12 TEK - 250TL</p>
+        <p>AUCHENTOSHAN12 DUBLE - 500TL</p>
+        <p>AUCHENTOSHAN AMERICAN OAK - 300TL</p>
+        <p>AUCHENTOSHAN AMERICAN OAK - 600TL</p>
+        <p>AUCHENTOSHAN THREE WOOD TEK - 350TL</p>
+        <p>AUCHENTOSHAN THREE WOOD DUBLE - 700TL</p>
+        <p>GENTLEMAN JACK TEK - 300TL</p>
+        <p>GENTLEMAN JACK DUBLE - 600TL</p>
+        <p>MAKERS MARK TEK - 300TL</p>
+        <p>MAKERS MARK DUBLE - 600TL</p>
+        <p>CONNEMARA TEK - 300TL</p>
+        <p>CONNEMARA DUBLE - 600TL</p>
+        <p>JIM BEAM TEK - 200TL</p>
+        <p>JIM BEAM DUBLE - 400TL</p>
+        <p>GLENTALLOCH GOLD TEK - 200TL</p>
+        <p>GLENTALLOCH GOLD DUBLE - 400TL</p>
+        <p>BOWMORE12 TEK - 400TL</p>
+        <p>BOWMORE12 DUBLE - 800TL</p>
+        <p>DIMPLE TEK - 200TL</p>
+        <p>DIMPLE DUBLE - 400TL</p>
+        <p>THE CHITA TEK - 550TL</p>
+        <p>THE CHITA DUBLE - 1100TL</p>
+        <p>PIKE CREEK TEK - 250TL</p>
+        <p>PIKE CREEK DUBLE - 500TL</p>
+    </section>
+    
+
+    <section id="kokteyller">
+        <h2>Kokteyller</h2>
+        <p>NEGRONİ - 400TL</p>
+        <p>BLACK RUSSIAN - 400TL</p>
+        <p>WHITE RUSSIAN - 400TL</p>
+        <p>APEROL SPRITZ - 400TL</p>
+        <p>LONG ISLAND - 400TL</p>
+        <p>MARGARITA - 400TL</p>
+        <p>VİSKİ SOUR - 400TL</p>
+        <p>GREEN SOUR - 400TL</p>
+        <p>MOJİTO - 400TL</p>
+        <p>JAGGER BOMB - 400TL</p>
+        <p>SPESİAL (TATLI-EKŞİ) - 400TL</p>
+    </section>
+    
+</body>
+</html>
